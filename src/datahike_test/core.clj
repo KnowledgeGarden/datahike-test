@@ -1,5 +1,6 @@
 (ns datahike-test.core
-  (:require [datahike.api :as d])
+  (:require [datahike.api :as d]
+            [datahike-postgres.core])
   (:gen-class))
 
 ;; config for an in-memory datastore
