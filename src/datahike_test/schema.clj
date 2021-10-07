@@ -20,4 +20,15 @@
 ;; #datahike/Datom [2 :db/ident :age 536870913 true]
 ;; #datahike/Datom [2 :db/valueType :db.type/long 536870913 true]
 ;; #datahike/Datom [2 :db/cardinality :db.cardinality/one 536870913 true]]
+;; Datahike defines a Datom in datahike/datom.clj: [e a v tx added]
+;; @metasoarus suggested the idea of turning facts into entities
+;;  which is akin to what I do in topic maps: relations (associations) are topics
+;; He suggested something like this
+;; {:fact/objectType :fact.type/CausalRelation
+;;  :fact/subject A
+;;  :fact.subject/causes B}
+;; for the assertion { A causes B }
+;; This means we will need a schema to put behind a DSL to manipulate complex entities
+;; This will likely require a collection of Datalog rules for manipulation
+;;
 
