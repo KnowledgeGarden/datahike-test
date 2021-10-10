@@ -1,4 +1,4 @@
-(ns datahike-test.core-scheme
+(ns datahike-test.core-schema)
 
 ;; exploring a kind of "upper ontology"
 ;; using some topic map terms to construct domain models,
@@ -21,5 +21,5 @@
       :db/cardinality :db.cardinality/many} ;; many labels
      {:db/ident :sub-of
       :db/valueType :db.type/string
-      :db/cardinality :db.cardinality/many}])) ;; multiple inheritance
+      :db/cardinality :db.cardinality/many}]) ;; multiple inheritance
 

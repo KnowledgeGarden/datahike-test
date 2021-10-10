@@ -1,6 +1,7 @@
 (ns datahike-test.core
   (:require [datahike.api :as d]
-            [datahike-test.postgres-db :as db])
+            [datahike-test.postgres-db :as db]
+            [datahike-test.domains.person-model])
   (:gen-class))
 
 ;; config for an in-memory datastore
